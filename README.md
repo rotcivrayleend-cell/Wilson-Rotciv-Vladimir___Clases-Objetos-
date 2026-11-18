@@ -27,19 +27,19 @@ Código, nombre, precio, cantidad y valor total de cada producto. Mensajes de er
 ### 1. Datos válidos
 Se ingresan tres productos con datos correctos. El programa los registra y muestra el código, nombre, precio, cantidad y valor total de cada uno.
 
-![Datos válidos](capturas/datos-validos.png)
+![Datos válidos](capturas/CAPT_1.png)
 
-### 2. Precio negativo
-Se ingresa un precio negativo (-100). La propiedad Precio rechaza el valor, el programa muestra un mensaje de error y vuelve a pedir los datos sin cerrarse.
-
-![Precio negativo](capturas/precio-negativo.png)
-
-### 3. Nombre vacío
+### 2. Nombre vacío
 Se deja el nombre en blanco. La propiedad Nombre rechaza el valor, el programa muestra el mensaje de error y solicita de nuevo los datos del producto.
 
-![Nombre vacío](capturas/nombre-vacio.png)
+![Nombre vacío](capturas/CAPT_2.png)
+
+### 3. Precio negativo
+Se ingresa un precio negativo (-100). La propiedad Precio rechaza el valor, el programa muestra un mensaje de error y vuelve a pedir los datos sin cerrarse.
+
+![Precio negativo](capturas/CAPT_3.png)
 
 ### 4. Cantidad cero
 Se ingresa cantidad 0, que es un valor válido porque no es negativo. El producto se registra y su valor total es RD$ 0,00.
 
-![Cantidad cero](capturas/cantidad-cero.png)
+![Cantidad cero](capturas/CAPT_4.png)
